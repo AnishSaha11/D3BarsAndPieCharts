@@ -1,0 +1,137 @@
+html, body
+{
+    height: 100%;
+}
+#header{
+	background-color: #1a1a1a;
+	height: 70px;
+	width:1300px;
+	margin: 5px;
+	position:fixed;
+	border-radius: 3px;
+	text-align: right;
+}
+#headLabel{
+	color: #f2f2f2;
+	font-family: Verdana;
+	font-size: 30px;
+	display:inline-block;
+	margin-top: 25px;
+	margin-right: 50px;
+}
+#menu{
+	height:600px;
+	width:120px;
+	top:85px;
+	left: 80px;
+	margin: 4px;
+	background-color:#1a1a1a;
+	position:fixed;
+	z-index: 10;
+	display: none;
+	opacity: 0.95;
+}
+#menuHeader{
+	color:#f2f2f2;
+	font-family: Verdana;
+	font-size: 12px;
+	margin-top: 5px;
+	margin-left: 25%;
+	display:inline-block;
+	font-weight: 500;
+
+}
+#sidePanel{
+	background-color: #1a1a1a;
+	height: 600px;
+	position: fixed;
+	width: 70px;
+	margin: 5px;
+	margin-top: 80px;
+	border-radius: 3px;
+}
+#button1{
+	color: #f2f2f2;
+	background-color: #1a1a1a;
+	width: 65px;
+	margin-top: 20px;
+	outline: none;
+	border: none;
+	font-weight: bold;
+}
+#button1:hover{
+	background-color:#4d4d4d;
+}
+#button1:active{
+	background-color:#000000;
+}
+#content{
+	background-color: #f2f2f2;
+	position: fixed;
+	height: 600px;
+	width: 1220px;
+	margin: 5px;
+	top: 85px;
+	left: 85px;
+	border-radius: 3px;
+}
+#footer{
+	background-color: #1a1a1a;
+	position: fixed;
+	height: 30px;
+	width: 1300px;
+	bottom: 0px;
+	text-align: right;
+	border-radius: 3px;
+}
+#footerLabel{
+	color: #f2f2f2;
+	font: sans-serif;
+	font-style: italic;
+	margin-top: 5px;
+	margin-right: 20px;
+	display:inline-block;
+}
+
+#graphHolder{
+	background-color: #ffffff;
+	width:600px;
+	height:355px;
+	float: left;
+	margin-top: 10%;
+	margin-left: 20px;
+}
+#descBox{
+	color:#f2f2f2;
+	background-color: #333333;
+	width:500px;
+	height:355px;
+	float:left;
+	margin-top: 10%;
+	margin-left: 40px;
+	margin-right: 20px;
+	text-align: center;
+	position: relative;
+}
+#varName{
+	font-family: Verdana;
+	font-size: 16px;
+	display: inline-block;
+}
+#plotDesc{
+	font-family: Verdana;
+	font-size: 12px;
+}
+#rangeSlider{
+	width: 100px;
+	position: absolute;
+	bottom:10px;
+	left: 200px;
+}
+#binValue{
+	font-family: Verdana;
+	font-size: 12px;
+	position: absolute;
+	bottom:40px;
+	left: 200px;
+}
